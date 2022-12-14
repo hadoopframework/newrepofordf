@@ -1,0 +1,20 @@
+{
+	"name": "ArmtemplateTestDatasetIn",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ArmtemplateStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "emp.txt",
+				"folderPath": "input",
+				"container": "blob35it3tywoz3ka"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
